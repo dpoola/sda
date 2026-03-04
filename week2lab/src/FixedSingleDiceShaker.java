@@ -8,11 +8,13 @@ public class FixedSingleDiceShaker implements DiceShaker{
 
     @Override
     public boolean hasNext(){
+
         return index < shakes.length;
     }
 
     @Override
     public int next() {
+
         return shakes[index++];
     }
 }
