@@ -1,0 +1,2 @@
+public abstrct class AbstractDiceShaker {
+}
